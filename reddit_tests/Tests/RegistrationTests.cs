@@ -1,11 +1,16 @@
 ﻿using System;
+using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;
 using reddit_tests.BaseTestsSetup;
 using reddit_tests.DataGenerator;
 using reddit_tests.PageObject;
 
 namespace reddit_tests.Tests
 {
-	public class RegistrationTests : BaseTestSetup
+    [TestFixture]
+    [AllureNUnit]
+    [AllureSuite("Registration tests")]
+    public class RegistrationTests : BaseTestSetup
 	{
         private RegistrationDataGenerator _generator = new RegistrationDataGenerator();
         private RegistrationPage _registrationPage;

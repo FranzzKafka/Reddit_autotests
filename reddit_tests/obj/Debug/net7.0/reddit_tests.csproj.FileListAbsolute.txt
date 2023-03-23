@@ -11,6 +11,8 @@
 /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/reddit_tests.runtimeconfig.json
 /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/reddit_tests.dll
 /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/reddit_tests.pdb
+/Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/Allure.Commons.dll
+/Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/AspectInjector.Broker.dll
 /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/SeleniumExtras.PageObjects.dll
 /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
 /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/Microsoft.TestPlatform.CoreUtilities.dll
@@ -21,9 +23,11 @@
 /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/Microsoft.TestPlatform.Utilities.dll
 /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.Common.dll
 /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/testhost.dll
+/Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/MimeTypesMap.dll
 /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/NuGet.Frameworks.dll
 /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/nunit.framework.dll
+/Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/NUnit.Allure.dll
 /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/WebDriver.Support.dll
 /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/WebDriver.dll
 /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/bin/Debug/net7.0/SeleniumExtras.WaitHelpers.dll

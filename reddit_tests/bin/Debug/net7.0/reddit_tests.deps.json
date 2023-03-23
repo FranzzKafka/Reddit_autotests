@@ -11,6 +11,7 @@
           "DotNetSeleniumExtras.PageObjects.Core": "4.3.0",
           "Microsoft.NET.Test.Sdk": "17.3.2",
           "NUnit": "3.13.3",
+          "NUnit.Allure": "1.2.1.1",
           "NUnit.Analyzers": "3.5.0",
           "NUnit3TestAdapter": "4.3.0",
           "Selenium.Support": "4.8.1",
@@ -20,6 +21,26 @@
         },
         "runtime": {
           "reddit_tests.dll": {}
+        }
+      },
+      "Allure.Commons/3.5.0.73": {
+        "dependencies": {
+          "MimeTypesMap": "1.0.8",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Allure.Commons.dll": {
+            "assemblyVersion": "3.5.0.73",
+            "fileVersion": "3.5.0.73"
+          }
+        }
+      },
+      "AspectInjector/2.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/AspectInjector.Broker.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          }
         }
       },
       "coverlet.collector/3.1.2": {},
@@ -296,6 +317,14 @@
           }
         }
       },
+      "MimeTypesMap/1.0.8": {
+        "runtime": {
+          "lib/netstandard2.0/MimeTypesMap.dll": {
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
+          }
+        }
+      },
       "NETStandard.Library/2.0.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -325,6 +354,19 @@
           "lib/netstandard2.0/nunit.framework.dll": {
             "assemblyVersion": "3.13.3.0",
             "fileVersion": "3.13.3.0"
+          }
+        }
+      },
+      "NUnit.Allure/1.2.1.1": {
+        "dependencies": {
+          "Allure.Commons": "3.5.0.73",
+          "AspectInjector": "2.6.0",
+          "NUnit": "3.13.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NUnit.Allure.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -371,6 +413,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Allure.Commons/3.5.0.73": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cqMlst9Za1TfOsgN2fWzMkdUeOTy07AZHaudOuRVAjTyBmUxDKOKxCwlkxO1Xw91ogsPCdXIJdduUtFFGw+Thw==",
+      "path": "allure.commons/3.5.0.73",
+      "hashPath": "allure.commons.3.5.0.73.nupkg.sha512"
+    },
+    "AspectInjector/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VTd4JwPJBdO+g0GFY9xPtsB63/iCs9WCCZkcw2KJ+4gCP3N1LQ99bsfuQhFfrdZOYxJ8I5HBPyojqGVJyKzuOA==",
+      "path": "aspectinjector/2.6.0",
+      "hashPath": "aspectinjector.2.6.0.nupkg.sha512"
     },
     "coverlet.collector/3.1.2": {
       "type": "package",
@@ -421,6 +477,13 @@
       "path": "microsoft.testplatform.testhost/17.3.2",
       "hashPath": "microsoft.testplatform.testhost.17.3.2.nupkg.sha512"
     },
+    "MimeTypesMap/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iOm6Zar+yVROhlyrGGSJTfThvNoHLUeYeQQND9YD/ot/nA2qsWUp9kP2MHTdF9P7I8afW6eCf8vdELLZjDFdSQ==",
+      "path": "mimetypesmap/1.0.8",
+      "hashPath": "mimetypesmap.1.0.8.nupkg.sha512"
+    },
     "NETStandard.Library/2.0.0": {
       "type": "package",
       "serviceable": true,
@@ -448,6 +511,13 @@
       "sha512": "sha512-KNPDpls6EfHwC3+nnA67fh5wpxeLb3VLFAfLxrug6JMYDLHH6InaQIWR7Sc3y75d/9IKzMksH/gi08W7XWbmnQ==",
       "path": "nunit/3.13.3",
       "hashPath": "nunit.3.13.3.nupkg.sha512"
+    },
+    "NUnit.Allure/1.2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bb6hpYRrJFnWh3CePRY63E7D75eOG9waEYePUE+iMaRLq5mtRmYZKg4qUG0492AnoFjOnTRFpMlE1ucvgbk2PQ==",
+      "path": "nunit.allure/1.2.1.1",
+      "hashPath": "nunit.allure.1.2.1.1.nupkg.sha512"
     },
     "NUnit.Analyzers/3.5.0": {
       "type": "package",

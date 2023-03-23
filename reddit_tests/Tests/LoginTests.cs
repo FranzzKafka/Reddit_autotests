@@ -1,10 +1,15 @@
 ﻿using System;
+using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;
 using reddit_tests.BaseTestsSetup;
 using reddit_tests.PageObject;
 
 namespace reddit_tests.Tests
 {
-	public class LoginTests : BaseTestSetup
+    [TestFixture]
+    [AllureNUnit]
+    [AllureSuite("Login tests")]
+    public class LoginTests : BaseTestSetup
 	{
         private LoginPage _loginPage;
 
