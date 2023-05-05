@@ -1,0 +1,61 @@
+{
+  "uuid": "f67d0cf6-a245-4156-817c-4bced5894af1-tc-0-1014",
+  "name": "reddit_tests.Tests.UserAgremeentPageFuncionalityTests.ChangeUserAgremeentLanguageTest",
+  "children": [
+    "dbafc2e2-1edb-45ed-a393-257f86dff20e-tr-0-1016"
+  ],
+  "befores": [
+    {
+      "name": "BaseSetup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.DriverServiceNotFoundException : The chromedriver file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.",
+        "trace": "   at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)\n   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor()\n   at reddit_tests.BaseTestsSetup.BaseTestSetup.BaseSetup() in /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/BaseTestsSetup/BaseTestSetup.cs:line 15\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683292625444,
+      "stop": 1683292625444
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683292625444,
+      "stop": 1683292625444
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683292625444,
+      "stop": 1683292625444
+    }
+  ],
+  "links": [],
+  "start": 1683292625295,
+  "stop": 1683292625452
+}

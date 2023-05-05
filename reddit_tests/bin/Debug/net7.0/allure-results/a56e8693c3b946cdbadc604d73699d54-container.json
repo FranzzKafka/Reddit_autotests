@@ -1,0 +1,59 @@
+{
+  "uuid": "95726775-8a9b-45df-8e74-b5c6a0662bbc-tc-0-1014",
+  "name": "reddit_tests.Tests.UserAgremeentPageFuncionalityTests.ChangeUserAgremeentLanguageTest",
+  "children": [
+    "a75e96a1-a006-4daf-b1bd-1272f64ae569-tr-0-1016"
+  ],
+  "befores": [
+    {
+      "name": "BaseSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683292593502,
+      "stop": 1683292593502
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683292593502,
+      "stop": 1683292593502
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683292593502,
+      "stop": 1683292593502
+    }
+  ],
+  "links": [],
+  "start": 1683292581595,
+  "stop": 1683292593510
+}

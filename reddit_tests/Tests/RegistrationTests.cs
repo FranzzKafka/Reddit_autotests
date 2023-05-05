@@ -43,7 +43,7 @@ namespace reddit_tests.Tests
         [Description("Click on suggested username place it into username text field")]
         public void ChooseUserNameSuggestionTest()
         {
-            const int firstUserNameSuggestionIndex = 0;
+            int firstUserNameSuggestionIndex = 0;
 
             _registrationPage.ClicklContinueRegistrationButton();
 
@@ -60,7 +60,7 @@ namespace reddit_tests.Tests
         [Description("After click on update button new user name suggestions appears")]
         public void UpdateUserNameSuggestionsTest()
         {
-            const int firstUserNameSuggestionIndex = 0;
+            int firstUserNameSuggestionIndex = 0;
 
             _registrationPage.ClicklContinueRegistrationButton();
 

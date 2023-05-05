@@ -1,0 +1,72 @@
+{
+  "uuid": "dbafc2e2-1edb-45ed-a393-257f86dff20e-tr-0-1016",
+  "historyId": "reddit_tests.Tests.UserAgremeentPageFuncionalityTests.ChangeUserAgremeentLanguageTest",
+  "fullName": "reddit_tests.Tests.UserAgremeentPageFuncionalityTests.ChangeUserAgremeentLanguageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Air-Evgenij"
+    },
+    {
+      "name": "package",
+      "value": "reddit_tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ChangeUserAgremeentLanguageTest"
+    },
+    {
+      "name": "testClass",
+      "value": "UserAgremeentPageFuncionalityTests"
+    },
+    {
+      "name": "suite",
+      "value": "User Agremeent page functionality tests"
+    }
+  ],
+  "links": [],
+  "name": "ChangeUserAgremeentLanguageTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.DriverServiceNotFoundException : The chromedriver file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.",
+    "trace": "   at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)\n   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor()\n   at reddit_tests.BaseTestsSetup.BaseTestSetup.BaseSetup() in /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/BaseTestsSetup/BaseTestSetup.cs:line 15\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "\nBaseSetup SetUp method failed\nChange User Agremeent language\n",
+  "steps": [
+    {
+      "name": "ChangeUserAgremeentLanguageTest skipped because of BaseSetup failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.DriverServiceNotFoundException : The chromedriver file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.",
+        "trace": "   at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)\n   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor()\n   at reddit_tests.BaseTestsSetup.BaseTestSetup.BaseSetup() in /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/BaseTestsSetup/BaseTestSetup.cs:line 15\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "9e36060592ef4e6b951b93d32ffd92f5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683292625296,
+      "stop": 1683292625445
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683292625296,
+  "stop": 1683292625446
+}

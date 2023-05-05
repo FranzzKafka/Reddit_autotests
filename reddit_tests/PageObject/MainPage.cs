@@ -41,6 +41,15 @@ namespace reddit_tests.PageObject
         [FindsBy(How = How.XPath, Using = ".//*[@class='_1rZYMD_4xY3gRcSS3p8ODO _3a2ZHWaih05DgAOtvu6cIo ']")]
         public IWebElement TopPostRating { get; set; }
 
+        [FindsBy(How = How.Id, Using = "USER_DROPDOWN_ID")]
+        public IWebElement UserDropDown { get; set; }
+
+        [FindsBy(How = How.XPath, Using = ".//*[@class='f8nXLisWxOYzMMl1uIAP3 vLtBjS_8SMsuZByMrcgJH']")]
+        public IWebElement TermsAndPoliciesDropDown { get; set; }
+
+        [FindsBy(How = How.XPath, Using = ".//*[@href='https://www.redditinc.com/policies/user-agreement']")]
+        public IWebElement UserAgremeentButton { get; set; }
+
         public void FindInfoViaSearchField(string searchTopic)
         {
             SetTextToSearchField(searchTopic);
@@ -91,6 +100,22 @@ namespace reddit_tests.PageObject
             int ratingPoints = thousandthConverter * int.Parse(convertableString);
 
             return ratingPoints;
+        }
+
+        public void ClickUserDropDown()
+        {
+            UserDropDown.Click();
+        }
+
+        public void ClickTermsAndPoliciesDropDown()
+        {
+            TermsAndPoliciesDropDown.Click();
+        }
+
+        public UserAgremeentPage ClickUserAgreementButton()
+        {
+            UserAgremeentButton.Click();
+            return new UserAgremeentPage(_driver);
         }
     }
 }

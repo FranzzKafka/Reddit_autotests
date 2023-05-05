@@ -1,0 +1,69 @@
+{
+  "uuid": "6851cc08-7da3-4841-a157-79479cc46cfd-tr-0-1016",
+  "historyId": "reddit_tests.Tests.UserAgremeentPageFuncionalityTests.ChangeUserAgremeentLanguageTest",
+  "fullName": "reddit_tests.Tests.UserAgremeentPageFuncionalityTests.ChangeUserAgremeentLanguageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Air-Evgenij"
+    },
+    {
+      "name": "package",
+      "value": "reddit_tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ChangeUserAgremeentLanguageTest"
+    },
+    {
+      "name": "testClass",
+      "value": "UserAgremeentPageFuncionalityTests"
+    },
+    {
+      "name": "suite",
+      "value": "User Agremeent page functionality tests"
+    }
+  ],
+  "links": [],
+  "name": "ChangeUserAgremeentLanguageTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "ChangeUserAgremeentLanguageTest"
+  },
+  "stage": "finished",
+  "description": "Change User Agremeent language\n",
+  "steps": [
+    {
+      "name": "ChangeUserAgremeentLanguageTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "27d21049849f4aa4bf471858cbd8b4c4-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683293145943,
+      "stop": 1683293153547
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683293145943,
+  "stop": 1683293153548
+}

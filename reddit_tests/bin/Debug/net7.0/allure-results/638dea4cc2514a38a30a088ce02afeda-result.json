@@ -1,0 +1,72 @@
+{
+  "uuid": "4fa2e88e-8cb6-4447-a497-289104503088-tr-0-1016",
+  "historyId": "reddit_tests.Tests.UserAgremeentPageFuncionalityTests.ChangeUserAgremeentLanguageTest",
+  "fullName": "reddit_tests.Tests.UserAgremeentPageFuncionalityTests.ChangeUserAgremeentLanguageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Air-Evgenij"
+    },
+    {
+      "name": "package",
+      "value": "reddit_tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ChangeUserAgremeentLanguageTest"
+    },
+    {
+      "name": "testClass",
+      "value": "UserAgremeentPageFuncionalityTests"
+    },
+    {
+      "name": "suite",
+      "value": "User Agremeent page functionality tests"
+    }
+  ],
+  "links": [],
+  "name": "ChangeUserAgremeentLanguageTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.ClassName[Contains]: jcf-option",
+    "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\n   at SeleniumExtras.PageObjects.WebElementProxy.Click()\n   at reddit_tests.PageObject.UserAgremeentPage.ClickDutchLanguageButton() in /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/PageObject/UserAgremeentPage.cs:line 52\n   at reddit_tests.Tests.UserAgremeentPageFuncionalityTests.ChangeUserAgremeentLanguageTest() in /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/Tests/UserAgremeentPageFuncionalityTests.cs:line 42\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "Change User Agremeent language\n",
+  "steps": [
+    {
+      "name": "ChangeUserAgremeentLanguageTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.ClassName[Contains]: jcf-option",
+        "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\n   at SeleniumExtras.PageObjects.WebElementProxy.Click()\n   at reddit_tests.PageObject.UserAgremeentPage.ClickDutchLanguageButton() in /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/PageObject/UserAgremeentPage.cs:line 52\n   at reddit_tests.Tests.UserAgremeentPageFuncionalityTests.ChangeUserAgremeentLanguageTest() in /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/Tests/UserAgremeentPageFuncionalityTests.cs:line 42\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "dec3cdf9a141408493cebe412487b450-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683294180612,
+      "stop": 1683294196389
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683294180612,
+  "stop": 1683294196390
+}

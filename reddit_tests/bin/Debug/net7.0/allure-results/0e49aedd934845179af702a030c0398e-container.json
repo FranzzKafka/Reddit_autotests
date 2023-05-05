@@ -1,0 +1,43 @@
+{
+  "uuid": "61f34f4d-ae4c-4c65-95f6-01481843baad-tc-0-1014",
+  "name": "reddit_tests.Tests.UserAgremeentPageFuncionalityTests.ChangeUserAgremeentRevisionTest",
+  "children": [
+    "1dbb9705-8957-49e7-be34-93c92b0deb01-tr-0-1015"
+  ],
+  "befores": [
+    {
+      "name": "BaseSetup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683290519492,
+      "stop": 1683290519492
+    },
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1683290519492,
+      "stop": 1683290519492
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1683290506406,
+  "stop": 1683290519500
+}

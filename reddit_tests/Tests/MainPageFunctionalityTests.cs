@@ -37,7 +37,7 @@ namespace reddit_tests.Tests
         [Description("Posts filter opens a collection of posts on a specific topic")]
         public void PostsFilterTest()
         {
-            const int firstGameIndex = 1;
+            int firstGameIndex = 1;
 
             _mainPage.ClickGameTopicsButton();
 
@@ -63,6 +63,21 @@ namespace reddit_tests.Tests
             int minimumPopularPostRating = 999;
 
             Assert.That(topPostRating, Is.AtLeast(minimumPopularPostRating));
+        }
+
+        [Test]
+        [Description("Open User Agreement page through main page")]
+        public void OpenUserAgremeentPageThroughMainPage()
+        {
+            _mainPage.ClickUserDropDown();
+
+            _mainPage.ClickTermsAndPoliciesDropDown();
+
+            var userAgremeentPage = _mainPage.ClickUserAgreementButton();
+
+            string expectedDropDownText = "User Agreement";
+
+            Assert.That(userAgremeentPage.ChooseDocumentDropDown.Text, Is.EqualTo(expectedDropDownText));
         }
 
         [TearDown]

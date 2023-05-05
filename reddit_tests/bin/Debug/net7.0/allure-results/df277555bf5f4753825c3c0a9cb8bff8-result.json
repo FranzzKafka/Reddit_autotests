@@ -1,0 +1,69 @@
+{
+  "uuid": "167bb1dd-2959-4ddf-839c-ba913c9072a8-tr-0-1006",
+  "historyId": "reddit_tests.Tests.MainPageFunctionalityTests.SearchCommunityTest",
+  "fullName": "reddit_tests.Tests.MainPageFunctionalityTests.SearchCommunityTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Air-Evgenij"
+    },
+    {
+      "name": "package",
+      "value": "reddit_tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "SearchCommunityTest"
+    },
+    {
+      "name": "testClass",
+      "value": "MainPageFunctionalityTests"
+    },
+    {
+      "name": "suite",
+      "value": "Main page funcionality tests"
+    }
+  ],
+  "links": [],
+  "name": "SearchCommunityTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "SearchCommunityTest"
+  },
+  "stage": "finished",
+  "description": "Finding a specific community through the search field\n",
+  "steps": [
+    {
+      "name": "SearchCommunityTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ab11d466fa1442e08d5f126a8498870e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1682423418394,
+      "stop": 1682423439656
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1682423418394,
+  "stop": 1682423439657
+}

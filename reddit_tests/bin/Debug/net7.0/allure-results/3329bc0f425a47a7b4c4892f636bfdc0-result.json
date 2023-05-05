@@ -1,0 +1,72 @@
+{
+  "uuid": "b2b51144-02df-462f-8028-82410a85d188-tr-0-1009",
+  "historyId": "reddit_tests.Tests.MainPageFunctionalityTests.OpenUserAgremeentPageThrougthMainPage",
+  "fullName": "reddit_tests.Tests.MainPageFunctionalityTests.OpenUserAgremeentPageThrougthMainPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Air-Evgenij"
+    },
+    {
+      "name": "package",
+      "value": "reddit_tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "OpenUserAgremeentPageThrougthMainPage"
+    },
+    {
+      "name": "testClass",
+      "value": "MainPageFunctionalityTests"
+    },
+    {
+      "name": "suite",
+      "value": "Main page funcionality tests"
+    }
+  ],
+  "links": [],
+  "name": "OpenUserAgremeentPageThrougthMainPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 14 but was 9. Strings differ at index 0.\n  Expected: \"User Agremeent\"\n  But was:  \"REVISIONS\"\n  -----------^\n",
+    "trace": "   at reddit_tests.Tests.MainPageFunctionalityTests.OpenUserAgremeentPageThrougthMainPage() in /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/Tests/MainPageFunctionalityTests.cs:line 78\n"
+  },
+  "stage": "finished",
+  "description": "Open User Agreement page througth main page\n",
+  "steps": [
+    {
+      "name": "OpenUserAgremeentPageThrougthMainPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 14 but was 9. Strings differ at index 0.\n  Expected: \"User Agremeent\"\n  But was:  \"REVISIONS\"\n  -----------^\n",
+        "trace": "   at reddit_tests.Tests.MainPageFunctionalityTests.OpenUserAgremeentPageThrougthMainPage() in /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/Tests/MainPageFunctionalityTests.cs:line 78\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c54078c109b4411b85f4372ac6abc75e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683288303217,
+      "stop": 1683288327759
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683288303217,
+  "stop": 1683288327761
+}

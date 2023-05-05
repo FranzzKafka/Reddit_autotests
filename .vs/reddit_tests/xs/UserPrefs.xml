@@ -1,18 +1,34 @@
 ﻿<Properties StartupConfiguration="{38E7662F-667F-470F-9852-26EC15E12D5B}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.reddit__tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="reddit_tests/Tests/LoginTests.cs">
+    <Files>
+      <File FileName="reddit_tests/PageObject/LoginPage.cs" Line="1" Column="1" />
+      <File FileName="reddit_tests/PageObject/MainPage.cs" Line="1" Column="1" />
+      <File FileName="reddit_tests/PageObject/RegistrationPage.cs" Line="1" Column="1" />
+      <File FileName="reddit_tests/BaseTestsSetup/BaseTestSetup.cs" Line="1" Column="1" />
+      <File FileName="reddit_tests/Tests/LoginTests.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="reddit_tests" expanded="True" selected="True" />
+          <Node name="reddit_tests" expanded="True">
+            <Node name="reddit_tests" expanded="True">
+              <Node name="BaseTestsSetup" expanded="True" />
+              <Node name="DataGenerator" expanded="True" />
+              <Node name="PageObject" expanded="True" />
+              <Node name="Tests" expanded="True">
+                <Node name="LoginTests.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.reddit__tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -1,0 +1,72 @@
+{
+  "uuid": "f85be053-fee8-4c74-8c67-289b6fa5e1dd-tr-0-1009",
+  "historyId": "reddit_tests.Tests.MainPageFunctionalityTests.OpenUserAgremeentPageThrougthMainPage",
+  "fullName": "reddit_tests.Tests.MainPageFunctionalityTests.OpenUserAgremeentPageThrougthMainPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Air-Evgenij"
+    },
+    {
+      "name": "package",
+      "value": "reddit_tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "OpenUserAgremeentPageThrougthMainPage"
+    },
+    {
+      "name": "testClass",
+      "value": "MainPageFunctionalityTests"
+    },
+    {
+      "name": "suite",
+      "value": "Main page funcionality tests"
+    }
+  ],
+  "links": [],
+  "name": "OpenUserAgremeentPageThrougthMainPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  String lengths are both 14. Strings differ at index 9.\n  Expected: \"User Agremeent\"\n  But was:  \"User Agreement\"\n  --------------------^\n",
+    "trace": "   at reddit_tests.Tests.MainPageFunctionalityTests.OpenUserAgremeentPageThrougthMainPage() in /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/Tests/MainPageFunctionalityTests.cs:line 78\n"
+  },
+  "stage": "finished",
+  "description": "Open User Agreement page througth main page\n",
+  "steps": [
+    {
+      "name": "OpenUserAgremeentPageThrougthMainPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  String lengths are both 14. Strings differ at index 9.\n  Expected: \"User Agremeent\"\n  But was:  \"User Agreement\"\n  --------------------^\n",
+        "trace": "   at reddit_tests.Tests.MainPageFunctionalityTests.OpenUserAgremeentPageThrougthMainPage() in /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/Tests/MainPageFunctionalityTests.cs:line 78\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "db163725a8704b5b89c80299a6a3d441-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683288574984,
+      "stop": 1683288600371
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683288574984,
+  "stop": 1683288600371
+}

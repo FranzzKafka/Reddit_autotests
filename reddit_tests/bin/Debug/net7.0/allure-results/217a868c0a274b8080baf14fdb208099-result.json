@@ -1,0 +1,72 @@
+{
+  "uuid": "f23b9c9f-fe9b-4479-9925-4ab111f32580-tr-0-1016",
+  "historyId": "reddit_tests.Tests.UserAgremeentPageFuncionalityTests.ChangeUserAgremeentLanguageTest",
+  "fullName": "reddit_tests.Tests.UserAgremeentPageFuncionalityTests.ChangeUserAgremeentLanguageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Air-Evgenij"
+    },
+    {
+      "name": "package",
+      "value": "reddit_tests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "ChangeUserAgremeentLanguageTest"
+    },
+    {
+      "name": "testClass",
+      "value": "UserAgremeentPageFuncionalityTests"
+    },
+    {
+      "name": "suite",
+      "value": "User Agremeent page functionality tests"
+    }
+  ],
+  "links": [],
+  "name": "ChangeUserAgremeentLanguageTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: .//span[text()='English']",
+    "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\n   at SeleniumExtras.PageObjects.WebElementProxy.Click()\n   at reddit_tests.PageObject.UserAgremeentPage.ClickUserAgremeentLanguageDropDown() in /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/PageObject/UserAgremeentPage.cs:line 44\n   at reddit_tests.Tests.UserAgremeentPageFuncionalityTests.ChangeUserAgremeentLanguageTest() in /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/Tests/UserAgremeentPageFuncionalityTests.cs:line 40\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "Change User Agremeent language\n",
+  "steps": [
+    {
+      "name": "ChangeUserAgremeentLanguageTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : Could not find element by: By.XPath: .//span[text()='English']",
+        "trace": "   at SeleniumExtras.PageObjects.DefaultElementLocator.LocateElement(IEnumerable`1 bys)\n   at SeleniumExtras.PageObjects.WebElementProxy.get_WrappedElement()\n   at SeleniumExtras.PageObjects.WebElementProxy.Click()\n   at reddit_tests.PageObject.UserAgremeentPage.ClickUserAgremeentLanguageDropDown() in /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/PageObject/UserAgremeentPage.cs:line 44\n   at reddit_tests.Tests.UserAgremeentPageFuncionalityTests.ChangeUserAgremeentLanguageTest() in /Users/evgenijsarkisan/Projects/reddit_tests/reddit_tests/Tests/UserAgremeentPageFuncionalityTests.cs:line 40\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bdf30e7c2dd84d489667843d80e3ab04-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1683292533217,
+      "stop": 1683292546882
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1683292533217,
+  "stop": 1683292546883
+}
